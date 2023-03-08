@@ -1,0 +1,77 @@
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .header {
+    background-color: #dfe6e9;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .balance {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  .form {
+    background-color: #b2bec3;
+    padding: 20px;
+  }
+  
+  .form label,
+  .form input[type="text"],
+  .form select,
+  .form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .form label {
+    font-weight: 700;
+  }
+  
+  .form input[type="text"],
+  .form select {
+    padding: 10px;
+    font-size: 1rem;
+  }
+  
+  .form button {
+    background-color: #2d3436;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .transactions {
+    margin-top: 20px;
+  }
+  
+  .transactions .transaction {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #dfe6e9;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .transactions .transaction .transaction-amount {
+    font-weight: 700;
+  }
+  
+  .transactions .transaction .delete-btn {
+    background-color: #ff7675;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    font-size: 0.8rem;
+    cursor: pointer;
+  }
+  
